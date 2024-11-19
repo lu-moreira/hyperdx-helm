@@ -2807,9 +2807,9 @@ mongodb:
   ## @param mongodb.image.debug Specify if debug values should be set
   ##
   image:
-    registry: docker.io
-    repository: bitnami/mongodb
-    tag: 7.0.12-debian-12-r4
+    registry: ghcr.io
+    repository: xavidop/mongodb
+    tag: '7.0'
     digest: ""
     ## Specify a imagePullPolicy
     ## ref: https://kubernetes.io/docs/concepts/containers/images/#pre-pulled-images
